@@ -1,4 +1,35 @@
-body {
-    font-family: Helvetica, Arial, sans-serif;
-    background-color: tomato;
+header {
+    background-color: rgb(46, 46, 46);
+    color: rgb(42, 140, 84);
+    padding: 20px 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header h1,
+header h2 {
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0;
+}
+
+
+header a {
+    color: rgb(42, 140, 84);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
 }
