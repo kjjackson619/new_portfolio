@@ -13,12 +13,6 @@ header h2 {
     margin: 0;
 }
 
-
-header a {
-    color: rgb(42, 140, 84);
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 header nav {
     float: right;
     margin: 7px 0;
@@ -32,4 +26,10 @@ header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
+    color: rgb(42, 140, 84);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header nav ul li a:hover {
+    color: rgb(54, 192, 32);
 }
